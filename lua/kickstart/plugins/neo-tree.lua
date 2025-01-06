@@ -15,7 +15,7 @@ return {
   },
   opts = {
     filesystem = {
-      find_by_full_path_words = false,
+      find_by_full_path_words = true,
       window = {
         position = 'current',
         mappings = {
