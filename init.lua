@@ -751,11 +751,12 @@ require('lazy').setup({
               require('luasnip.loaders.from_vscode').lazy_load {
                 paths = { './snippets/flutter-riverpod-snippets' },
               }
+              require('luasnip').filetype_extend('xml', { 'html' })
             end,
           },
         },
       },
-      
+
       'saadparwaiz1/cmp_luasnip',
 
       -- Adds other completion capabilities.
